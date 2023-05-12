@@ -1,0 +1,37 @@
+* {
+    font-family: 'urbanist';
+}
+
+/* header */
+
+/* color section */
+
+.color {
+    display: flex;
+}
+
+.color > .side {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+div.colorbox {
+    background-color: aqua;
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+}
+
+.color > .right {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+p.colorbox {
+    background-color: aqua;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
