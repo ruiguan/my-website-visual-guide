@@ -2,36 +2,80 @@
     font-family: 'urbanist';
 }
 
+body {
+    margin: 16px 32px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-left: 24px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-left: 36px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-left:48px;
+}
+
 /* header */
 
-/* color section */
+/* key-colors section */
 
-.color {
+.accent-colors, .neutral-colors, 
+.color-hero{
     display: flex;
 }
 
-.color > .side {
+.left, 
+.neutral-colors > h4 {
+    width: 20%; 
+}
+
+.color-hero div {
     display: flex;
-    justify-content: space-around;
-    width: 20%;
+    flex-direction: column;
 }
 
-div.colorbox {
-    background-color: aqua;
-    height: 8px;
-    width: 8px;
-    border: 1px solid black;
-}
-
-.color > .right {
+.color-box {
+    height: 128px;
+    width: 192px;
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    align-items: flex-end;
+    padding: 12px;
+    margin: 0 12px;
 }
 
-p.colorbox {
-    background-color: aqua;
-    border: 1px solid black;
-    height: 80px;
-    width: 80px;
+.color-text {
+    width: 192px;
+    padding: 12px;
+    margin: 0 12px;
 }
+
+#BE3455 {
+    background-color: #BE3455;
+}
+
+#AC888B {
+    background-color: #AC888B;
+}
+
+#B08A5E {
+    background-color: #B08A5E;
+}
+
+#c988E8F {
+    background-color: #988e8f;
+}
+
+#c9F8C8E {
+    background-color: #9F8C8E;
+}
+
