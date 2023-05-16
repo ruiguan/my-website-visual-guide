@@ -27,11 +27,39 @@ h5 {
 
 /* header */
 
+/* navigation */
+.breadcrumb {
+    padding: 0;
+}
+
+.breadcrumb > li {
+    display:inline;
+}
+
+.breadcrumb li+li::before {
+    content: "| ";
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active, a:hover {
+    color: #BE3455;
+}
+
+
 /* key-colors section */
 
 .accent-colors, .neutral-colors, 
 .color-hero{
     display: flex;
+}
+
+.color-hero {
+    gap: 24px;
 }
 
 .left, 
@@ -50,13 +78,24 @@ h5 {
     display: flex;
     align-items: flex-end;
     padding: 12px;
-    margin: 0 12px;
+    margin: 12px 12px 0;
+    color: white;
 }
 
 .color-text {
     width: 192px;
     padding: 12px;
     margin: 0 12px;
+}
+
+.key {
+    font-weight: normal;
+}
+
+.key:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #BE3455;
 }
 
 #BE3455 {
@@ -77,5 +116,9 @@ h5 {
 
 #c9F8C8E {
     background-color: #9F8C8E;
+}
+
+.container {
+    border: 1px solid grey;
 }
 

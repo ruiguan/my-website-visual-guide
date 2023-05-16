@@ -1,0 +1,76 @@
+* {
+    font-family: 'urbanist';
+}
+
+body {
+    margin: 16px 32px;
+}
+
+p {
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+h3 {
+    margin-left: 24px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-left: 36px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-left:48px;
+}
+
+/* header */
+
+/* navigation */
+.breadcrumb {
+    padding: 0;
+}
+
+.breadcrumb > li {
+    display:inline;
+}
+
+.breadcrumb li+li::before {
+    content: "| ";
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active, a:hover {
+    color: #BE3455;
+}
+
+/* main */
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.comfortaa {
+    font-family: 'comfortaa';
+}
+
+.roboto {
+    font-family: 'roboto';
+}
